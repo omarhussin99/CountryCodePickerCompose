@@ -15,7 +15,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            val currentLocationSheetState = rememberModalBottomSheetState(initialValue = ModalBottomSheetValue.Hidden, skipHalfExpanded = true)
+            val currentLocationSheetState = rememberModalBottomSheetState(initialValue = ModalBottomSheetValue.Hidden)
             CountryCodeTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
