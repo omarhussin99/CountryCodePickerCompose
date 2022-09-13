@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CountryCode</string>
+    <string name="lbl_cancel">Cancel</string>
+</resources>
