@@ -23,7 +23,7 @@ class MainActivity : ComponentActivity() {
                 ) {
                     CountriesBottomSheet(currentLocationSheetState) {
                         Column {
-                            CountryCodePicker(country = it,currentLocationSheetState)
+                            CountryCodePicker(country = it,currentLocationSheetState, paddingValues = PaddingValues())
                         }
                     }
                 }

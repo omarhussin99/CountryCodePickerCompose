@@ -22,9 +22,9 @@ import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterialApi::class)
 @Composable
-fun CountryCodePicker(country: Country,bottomSheetState: ModalBottomSheetState) {
+fun CountryCodePicker(country: Country,bottomSheetState: ModalBottomSheetState,paddingValues: PaddingValues) {
     val scope = rememberCoroutineScope()
-    Row(modifier = Modifier.padding(start = 20.dp)
+    Row(modifier = Modifier.padding(paddingValues)
             .border(1.dp, Color(0xFFF2F4F8), RoundedCornerShape(8.dp))
             .clip(RoundedCornerShape(8.dp))
             .clickable(onClick = { scope.launch { bottomSheetState.show() } })
@@ -45,7 +45,7 @@ fun CountryCodePicker(country: Country,bottomSheetState: ModalBottomSheetState) 
                 fontFamily = Avenir,
                 lineHeight = 16.sp,
             ),
-            modifier = Modifier.padding(end = 10.dp)
+            modifier = Modifier.padding(start = 4.dp, top = 10.dp, bottom = 10.dp, end = 10.dp)
            )
         }
 }
