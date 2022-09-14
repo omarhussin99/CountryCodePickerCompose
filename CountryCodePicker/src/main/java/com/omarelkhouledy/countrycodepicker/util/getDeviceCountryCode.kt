@@ -8,8 +8,8 @@ import java.util.*
 
 
 fun getDeviceCountryCode(context:Context) : String {
-    var countryId: String? = null
-    var countryDialCode: String? = null
+    val countryId: String?
+    var countryDialCode: String? = "966"
     val tm = context.getSystemService(Context.TELEPHONY_SERVICE) as TelephonyManager
     countryId = tm.simCountryIso.uppercase(Locale.getDefault())
     Log.d("test", "CountriesBottomSheet: ${tm.networkCountryIso}")
