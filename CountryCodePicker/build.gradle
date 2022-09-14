@@ -62,7 +62,7 @@ afterEvaluate {
 
                 groupId = 'com.github.omarhussin99'
                 artifactId = 'country-code-picker-compose'
-                version = '1.7'
+                version = '2.0.2'
             }
         }
     }
