@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Afghanistan">افغانستان</string>
+    <string name="albania">ألبانيا</string>
+    <string name="algeria">الجزائر</string>
+    <string name="american_samoa">ساموا-الأمريكي</string>
+    <string name="andorra">أندورا</string>
+    <string name="angola">أنجولا</string>
+    <string name="anguilla">أنجويلا</string>
+    <string name="antigua_and_barbuda">أنتيغوا وباربودا</string>
+    <string name="argentina">الأرجنتين</string>
+    <string name="armenia">أرمينيا</string>
+    <string name="aruba">أروبا</string>
+    <string name="australia">أستراليا</string>
+    <string name="austria">النمسا</string>
+    <string name="azerbaijan">أذربيجان</string>
+
+    <string name="saudi_arabia">Saudi Arabia</string>
+    <string name="egypt">Egypt</string>
+    <string name="untied_states">Untied states</string>
+</resources>

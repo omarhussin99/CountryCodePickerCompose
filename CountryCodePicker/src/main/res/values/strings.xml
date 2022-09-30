@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Afghanistan">Afghanistan</string>
+    <string name="saudi_arabia">Saudi Arabia</string>
+    <string name="egypt">Egypt</string>
+    <string name="untied_states">Untied states</string>
+    <string name="albania">Albania</string>
+    <string name="algeria">Algeria</string>
+    <string name="american_samoa">American Samoa</string>
+    <string name="andorra">Andorra</string>
+    <string name="angola">Angola</string>
+    <string name="anguilla">Anguilla</string>
+    <string name="antigua_and_barbuda">Antigua and Barbuda</string>
+    <string name="argentina">Argentina</string>
+    <string name="armenia">Armenia</string>
+    <string name="aruba">Aruba</string>
+    <string name="australia">Australia</string>
+    <string name="austria">Austria</string>
+    <string name="azerbaijan">Azerbaijan</string>
+</resources>

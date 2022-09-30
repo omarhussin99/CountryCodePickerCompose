@@ -81,7 +81,7 @@ fun CountriesBottomSheet(
                 ) {
                     items(
                         if (searchTerm != "") countryRepository.getCountries().filter {
-                            it.name.lowercase().contains(searchTerm.trim().lowercase())
+                            context.getString(it.name).lowercase().contains(searchTerm.trim().lowercase())
                         } else countryRepository.getCountries(),
                         key = { it.name }) { country ->
                         CountryItem(country = country) {
