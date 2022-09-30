@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="Afghanistan">Afghanistan</string>
+    <string name="afghanistan">Afghanistan</string>
     <string name="saudi_arabia">Saudi Arabia</string>
     <string name="egypt">Egypt</string>
     <string name="untied_states">Untied states</string>
@@ -17,4 +17,48 @@
     <string name="australia">Australia</string>
     <string name="austria">Austria</string>
     <string name="azerbaijan">Azerbaijan</string>
+    <string name="bahamas">Bahamas</string>
+    <string name="bahrain">Bahrain</string>
+    <string name="bangladesh">Bangladesh</string>
+    <string name="barbados">Barbados</string>
+    <string name="belarus">Belarus</string>
+    <string name="belgium">Belgium</string>
+    <string name="belize">Belize</string>
+    <string name="benin">Benin</string>
+    <string name="bermuda">Bermuda</string>
+    <string name="bhutan">Bhutan</string>
+    <string name="bolivia">Bolivia</string>
+    <string name="bosnia_and_herzegovina">Bosnia and Herzegovina</string>
+    <string name="botswana">Botswana</string>
+    <string name="brazil">Brazil</string>
+    <string name="british_Indian_ocean_territory">British Indian Ocean Territory</string>
+    <string name="british_virgin_islands">British Virgin Islands</string>
+    <string name="brunei">Brunei</string>
+    <string name="bulgaria">Bulgaria</string>
+    <string name="burkina_faso">Burkina Faso</string>
+    <string name="burundi">Burundi</string>
+    <string name="cambodia">Cambodia</string>
+    <string name="cameroon">Cameroon</string>
+    <string name="canada">Canada</string>
+    <string name="cape_verde">Cape Verde</string>
+    <string name="caribbean_netherlands">Caribbean Netherlands</string>
+    <string name="cayman_islands">Cayman Islands</string>
+    <string name="central_african_republic">Central African Republic</string>
+    <string name="chad">Chad</string>
+    <string name="chile">Chile</string>
+    <string name="china">China</string>
+    <string name="christmas_island">Christmas Island</string>
+    <string name="cocos_islands">Cocos Islands</string>
+    <string name="colombia">Colombia</string>
+    <string name="comoros">Comoros</string>
+    <string name="congo_drc">Congo DRC</string>
+    <string name="congo_republic">Congo Republic</string>
+    <string name="cook_islands">Cook Islands</string>
+    <string name="costa_rica">Costa Rica</string>
+    <string name="côte_divoire">Côte D\'ivoire</string>
+    <string name="croatia">Croatia</string>
+    <string name="cuba">Cuba</string>
+    <string name="curaçao">Curaçao</string>
+    <string name="cyprus">Cyprus</string>
+    <string name="czech_republic">Czech Republic</string>
 </resources>
