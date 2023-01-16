@@ -69,7 +69,9 @@ class CountryRepository {
         //others
         Country("\uD83C\uDDF8\uD83C\uDDE6", R.string.saudi_arabia, "966","sa"),
         Country("\uD83C\uDDEA\uD83C\uDDEC", R.string.egypt, "20","eg"),
-        Country("\uD83C\uDDFA\uD83C\uDDF8", R.string.untied_states, "1","un")
+        Country("\uD83C\uDDFA\uD83C\uDDF8", R.string.untied_states, "1","un") ,
+        Country("\uD83C\uDDF0\uD83C\uDDFC", R.string.kuwait, "965","kw"),
+        Country("\uD83C\uDDF4\uD83C\uDDF2", R.string.oman, "968","om") ,
 
 //        Country("\uD83C\uDDE7\uD83C\uDDED", "Bahrain", "973"),
 //        Country("\uD83C\uDDF6\uD83C\uDDE6", "Qatar", "974"),
