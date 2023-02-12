@@ -96,6 +96,8 @@ fun CountriesBottomSheet(
             }
         }
     ) {
-        sheetContent(selectedCountry.value!!)
+        if (selectedCountry.value != null) {
+            sheetContent(selectedCountry.value!!)
+        }
     }
 }
