@@ -95,19 +95,17 @@ fun SearchBar(
                             .size(14.dp)
                     )
                     Box(Modifier.weight(1f)) {
-                        if (searchTermValue.isEmpty() && !openKeyboard) {
-                            Text(
-                                placeholder,
-                                style = TextStyle(
-                                    color = Color(0xFFAEB8C5),
-                                    fontSize = 12.sp,
-                                    fontFamily = Avenir,
-                                    lineHeight = 16.sp,
-                                )
+                        Text(
+                            if (searchTermValue.isEmpty() && !openKeyboard)
+                                placeholder else "",
+                            style = TextStyle(
+                                color = Color(0xFFAEB8C5),
+                                fontSize = 12.sp,
+                                fontFamily = Avenir,
+                                lineHeight = 16.sp,
                             )
-                        } else {
-                            innerTextField()
-                        }
+                        )
+                        innerTextField()
                     }
                     if (searchTermValue != "") {
                         IconButton(onClick = {
