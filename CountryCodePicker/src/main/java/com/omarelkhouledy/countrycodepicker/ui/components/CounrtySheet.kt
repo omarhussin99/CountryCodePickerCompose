@@ -19,6 +19,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.unit.dp
+import com.omarelkhouledy.countrycodepicker.R
 import com.omarelkhouledy.countrycodepicker.data.model.Country
 import com.omarelkhouledy.countrycodepicker.data.repository.CountryRepository
 import com.omarelkhouledy.countrycodepicker.util.Keyboard
@@ -98,6 +99,8 @@ fun CountriesBottomSheet(
     ) {
         if (selectedCountry.value != null) {
             sheetContent(selectedCountry.value!!)
+        } else {
+            sheetContent(Country("\uD83C\uDDF8\uD83C\uDDE6", R.string.saudi_arabia, "966","sa"))
         }
     }
 }
